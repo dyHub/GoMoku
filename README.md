@@ -21,7 +21,7 @@ It takes a prewriting online code and adds more specific features
 ##Project preview##
 ####Self define dimension of the game board####
     You can set your own board size and square size to play a more challenging game or a easier one
-    Also you can change the size of the stone to make it more visible 
+    You can also change the size of the stone to make it more visible 
 You can change the integer value of the size to customize the board
 ```Java
 	   static final int BoardSize = 13;
@@ -30,4 +30,4 @@ You can change the integer value of the size to customize the board
 ```   
 ######next step######
 - Adding buttons and messages to prompt user to input customized dimension
-- Changing the Applet to JFrame so that it can contain the entire board and messages 
+- Changing the Applet to JFrame so that it can contain the entire board and messageseven the borad is oversized

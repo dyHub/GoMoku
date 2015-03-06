@@ -11,7 +11,7 @@ The game ends in a draw if the board is filled before either player wins.
 ## purpose ##
 This project is a modified version of the classic game "GoMoku"
 
-It takes a prewriting online code and adding more specific features
+It takes a prewriting online code and adds more specific features
 ## responsibilities ##
 * Add comments
 * Define variables 

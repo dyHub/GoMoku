@@ -3,7 +3,9 @@
     
 This program(applet) lets two uses play GoMoku (a.k.a Pente) against each other.  
 
-Black always starts the game.  When a player gets five-in-a-row, that player wins.  
+Black always starts the game.  
+
+When a player gets five-in-a-row, that player wins.  
 
 The game ends in a draw if the board is filled before either player wins.
 ## purpose ##

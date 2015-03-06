@@ -11,11 +11,12 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
 class GoMokuCanvas extends Canvas implements ActionListener, MouseListener {
-	
-	   static final int BoardSize = 13;
-	   static final int SqurSize = 13;
-	   static int PreDim = SqurSize*BoardSize+3;
-	   public int getDimension(){return PreDim;}
+       
+       // static board size and square size which determines the dimension
+       static final int BoardSize = 13;
+       static final int SqurSize = 13;
+       static int PreDim = SqurSize*BoardSize+3;	  
+       public int getDimension(){return PreDim;}
 
        Button resignButton;   // Current player can resign by clicking this button.
        Button newGameButton;  // This button starts a new game.  It is enabled only

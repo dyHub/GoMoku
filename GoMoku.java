@@ -8,14 +8,10 @@
        and a canvas class, GoMokuCanvas.
     
        It is assumed that this applet is 330 pixels wide and 240 pixels high!
-    
 */
+
 import java.awt.*;
-import java.awt.event.*;
 import java.applet.*;    
-
-import javax.swing.JFrame;
-
 
 public class GoMoku extends Applet {
     
@@ -51,8 +47,6 @@ public class GoMoku extends Applet {
           
           /* Set the position and size of each component by calling
              its setBounds() method. */
-          
-    
           board.setBounds(16,16,board.getDimension(),board.getDimension()); 
           board.newGameButton.setBounds(board.getDimension()+35, 60, 100, 30);
           board.resignButton.setBounds(board.getDimension()+35, 120, 100, 30);

@@ -8,3 +8,17 @@ It takes a prewriting online code and adding more specific features
 * Define variables 
 * Add new feature to the game
 * Embellish the user interface
+
+##Project preview##
+####Self define dimension of the game board####
+    You can set your own board size and square size to play a more challenging game or a easier one
+    Also you can change the size of the stone to make it more visible 
+You can change the integer value of the size to customize the board
+```Java
+	   static final int BoardSize = 13;
+	   static final int SqurSize = 13;
+	   static int PreDim = SqurSize*BoardSize+3;
+```   
+######next step######
+- Adding buttons and messages to prompt user to input customized dimension
+- Changing the Applet to JFrame so that it can contain the entire board and messages 
